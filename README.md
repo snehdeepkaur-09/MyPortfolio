@@ -1,10 +1,20 @@
 # Snehdeep Kaur | Computer Science & AI Student
 
-[![Portfolio Website](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat&logo=web)](https://snehdeepkaur-portfolio.vercel.app/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Snehdeep-blue?style=flat&logo=linkedin)](https://linkedin.com/in/snehdeepkaur09)  
-[![GitHub](https://img.shields.io/badge/GitHub-Snehdeep-black?style=flat&logo=github)](https://github.com/snehdeepkaur-09)  
+<p align="center">
+  <a href="https://snehdeepkaur-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/100/008080/domain.png" width="50" height="50" style="border-radius:50%;" alt="Portfolio"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/snehdeepkaur09" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/100/0077B5/linkedin.png" width="50" height="50" style="border-radius:50%;" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/snehdeepkaur-09" target="_blank">
+    <img src="https://img.icons8.com/ios-glyphs/100/000000/github.png" width="50" height="50" style="border-radius:50%;" alt="GitHub"/>
+  </a>
+</p>
 
----
+----
 
 ## 👋 About Me
 > "To me, being a woman in STEM isn’t just about representation - it’s about reshaping the future with every line of code."
