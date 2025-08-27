@@ -13,7 +13,14 @@
     <header class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="images/1.trans.png" alt="Snehdeep logo">
+                <a href="#top">
+                    <img src="images/1.trans.png" alt="Snehdeep logo">
+                </a>
+            </div>
+
+
+            <div class="hamburger" id="hamburger">
+                <img src="icons/bars-solid-full.svg" alt="Menu" />
             </div>
 
             <nav>
@@ -21,12 +28,33 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
                     <li><a href="#education">EDUCATION</a></li>
-                    <li><a href="#experience">EXPERIENCE</a></li>
+
+                    <li class="dropdown">
+                        <a href="#experience" class="dropdown-toggle">EXPERIENCE</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#work-experience">Work Experience</a></li>
+                            <li><a href="#volunteer-experience">Volunteer Experience</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#skills">SKILLS</a></li>
+
+                    <li class="dropdown">
+                        <a href="#achievements" class="dropdown-toggle">ACHIEVEMENTS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#certificates">Certificates</a></li>
+                            <li><a href="#badges">Badges</a></li>
+                            <li><a href="#awards">Awards</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
+
         </div>
     </header>
+
 
     <div class="slideshow-container">
         <div class="slide fade">
@@ -53,10 +81,16 @@
     <div class="name">
         <h1>Snehdeep Kaur</h1>
         <p>Computer Science & AI Student | Women in STEM</p>
+
+        <!-- Resume button for mobile only -->
+        <div class="resume-btn-container">
+            <a href="https://drive.google.com/file/d/1p0MDilVOyRRDQw3r3KrI4eigteeqMuD3/view?usp=sharing"
+                class="resume-btn-mobile" target="_blank">View My Resume</a>
+        </div>
     </div>
 
-    <!-- ABOUT SECTION -->
 
+    <!-- ABOUT SECTION -->
     <section id="about" class="about-section">
 
         <div class="about-content">
@@ -66,23 +100,22 @@
 
             <div class="about-text">
                 <h3> About Me </h3>
-                <p class="quote">"To me, being a woman in STEM isn’t just about representation — it’s about reshaping
+                <p class="quote">"To me, being a woman in STEM isn’t just about representation - it’s about reshaping
                     the future with every line of code."</p>
                 <p>
                     Hi, I'm Snehdeep Kaur, a passionate and driven Computer Science & Artificial Intelligence student
-                    based in the UK. My journey in tech began with a deep curiosity about how machines think — and
+                    based in the UK. My journey in tech began with a deep curiosity about how machines think - and
                     evolved into a mission to use technology to solve real-world problems and uplift communities.</p>
 
                 <p> As a young lady in STEM and a first-generation international student, I know the power of
-                    perseverance,
-                    purpose, and representation. I strive to be a role model for others, especially young girls and
-                    underrepresented groups in tech, showing them that no dream is too big when paired with hard work
-                    and the right support.</p>
+                    perseverance, purpose, and representation. I strive to be a role model for others, especially
+                    young girls and underrepresented groups in tech, showing them that no dream is too big when
+                    paired with hard work and the right support.</p>
 
                 <p> My portfolio spans cutting-edge innovation, from building a Robotic Nurse to being selected as one
                     of just eight national finalists in Viasat's Space for Good UK Competition, I’ve explored the
-                    intersection of innovation,sustainability, and social impact. I thrive on taking ideas from concept
-                    to reality — whether that’s through leading workshops, building software, mentoring students, or
+                    intersection of innovation, sustainability, and social impact. I thrive on taking ideas from concept
+                    to reality - whether that’s through leading workshops, building software, mentoring students, or
                     managing large-scale events.
                 </p>
             </div>
@@ -100,7 +133,7 @@
                 <div class="project-info">
                     <h3>Robotic Nurse</h3>
                     <p>Developed an intelligent Robotic Nurse to support NHS staff by automating cleaning and medicine
-                        delivery — featured at Innovation Fest 2025.</p>
+                        delivery - featured at Innovation Fest 2025.</p>
 
                     <div class="tech-used">
                         <span>Arduino</span>
@@ -121,7 +154,7 @@
                     <h2>Robotic Nurse</h2>
                     <p>
                         At Innovation Fest 2025, our team <strong>Care Squad</strong> built a smart, AI-powered
-                        <strong>Robotic Nurse</strong> — a healthcare assistant robot designed to reduce NHS
+                        <strong>Robotic Nurse</strong> - a healthcare assistant robot designed to reduce NHS
                         staff
                         workload, promote hygiene, and automate medicine delivery in hospitals.
                     </p><br>
@@ -318,7 +351,7 @@
     </section>
 
     <!--Work Experience-->
-    <section class="timeline-container">
+    <section id="work-experience" class="timeline-container">
         <h2>WORK EXPERIENCE</h2>
         <div class="timeline">
 
@@ -453,12 +486,10 @@
         </div>
 
 
-
-        </div>
     </section>
 
 
-    <section class="volunteer">
+    <section id="volunteer-experience" class="volunteer">
         <h2>VOLUNTEER EXPERIENCE</h2>
         <div class="volunteer-container">
             <div class="flip-card">
@@ -493,6 +524,21 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
+                        <img src="logos/she can code logo.png" alt="scc Logo">
+                        <h3>Mentor</h3>
+                        <p>Apr 2025 – Present</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Mentor women in tech through the SheCanCode platform, providing guidance in coding, robotics,
+                            and career development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
                         <img src="logos/sbbs logo.png" alt="sbbs Logo">
                         <h3>House Captain</h3>
                         <p>Apr 2023 – Apr 2024</p>
@@ -518,319 +564,916 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Images -->
-        <section class="image-scroller-section">
-            <h2 class="image-scroller-heading">MEMORABLE MOMENTS</h2>
-            <section class="image-scroller">
-                <div class="scroller-track">
+    <!-- Images -->
+    <section class="image-scroller-section">
+        <h2 class="image-scroller-heading">MEMORABLE MOMENTS</h2>
+        <section class="image-scroller">
+            <div class="scroller-track">
 
-                    <div class="image-item">
-                        <img src="gallery/viasat.jpg" alt="viasat" />
-                        <div class="image-label">Viasat <br> Reception - London</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/welcome.jpg" alt="welcome" />
-                        <div class="image-label">Welcome Session <br> Discussed all details about event.</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/sitting.PNG" alt="sitting" />
-                        <div class="image-label">Welcome Session</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/all standing.PNG" alt="all" />
-                        <div class="image-label">Whole Team <br> Mentors and mentees</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/finalist standing.jpg" alt="finalist" />
-                        <div class="image-label">University Finalists</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/mentor.jpg" alt="mentor" />
-                        <div class="image-label">Mentor Meeting<br> Preparation for Presentation</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/intreview me.png" alt="Interview" />
-                        <div class="image-label">Interview <br> My experience as the finalist</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/viasat event.PNG" alt="visat event" />
-                        <div class="image-label">Final Event</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/award.jpg" alt="award" />
-                        <div class="image-label">Award Ceremony <br> Runner-up Award</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/selfie.jpg" alt="selfie" />
-                        <div class="image-label">Selfie Time <br> Viasat HR with other winners</div>
-                    </div>
-
-                    <div class="image-item">
-                        <img src="gallery/party.jpg" alt="party" />
-                        <div class="image-label">Party <br> Event Concludes</div>
-                    </div>
-
+                <div class="image-item">
+                    <img src="gallery/viasat.jpg" alt="viasat" />
+                    <div class="image-label">Viasat <br> Reception - London</div>
                 </div>
-            </section>
+
+                <div class="image-item">
+                    <img src="gallery/welcome.jpg" alt="welcome" />
+                    <div class="image-label">Welcome Session <br> Discussed all details about event.</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/sitting.PNG" alt="sitting" />
+                    <div class="image-label">Welcome Session</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/all standing.PNG" alt="all" />
+                    <div class="image-label">Whole Team <br> Mentors and mentees</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/finalist standing.jpg" alt="finalist" />
+                    <div class="image-label">University Finalists</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/mentor.jpg" alt="mentor" />
+                    <div class="image-label">Mentor Meeting<br> Preparation for Presentation</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/intreview me.png" alt="Interview" />
+                    <div class="image-label">Interview <br> My experience as the finalist</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/viasat event.PNG" alt="visat event" />
+                    <div class="image-label">Final Event</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/award.jpg" alt="award" />
+                    <div class="image-label">Award Ceremony <br> Runner-up Award</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/selfie.jpg" alt="selfie" />
+                    <div class="image-label">Selfie Time <br> Viasat HR with other winners</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="gallery/party.jpg" alt="party" />
+                    <div class="image-label">Party <br> Event Concludes</div>
+                </div>
+
+                <!-- Duplicate for seamless infinite scroll -->
+                <div class="image-item">
+                    <img src="gallery/viasat.jpg" alt="viasat" />
+                    <div class="image-label">Viasat <br> Reception - London</div>
+                </div>
+                <div class="image-item">
+                    <img src="gallery/welcome.jpg" alt="welcome" />
+                    <div class="image-label">Welcome Session <br> Discussed all details about event.</div>
+                </div>
+                <div class="image-item">
+                    <img src="gallery/sitting.PNG" alt="sitting" />
+                    <div class="image-label">Welcome Session</div>
+                </div>
+                <div class="image-item">
+                    <img src="gallery/all standing.PNG" alt="all" />
+                    <div class="image-label">Whole Team <br> Mentors and mentees</div>
+                </div>
         </section>
+    </section>
 
-        <!--SKills Section-->
-        <section id="skills" class="skills-section">
-            <h2>SKILLS</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <img src="icons/html5.svg" alt="HTML" />
-                    <p>HTML</p>
+    <!--SKills Section-->
+    <section id="skills" class="skills-section">
+        <h2>SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="icons/html5.svg" alt="HTML" />
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/css.svg" alt="CSS" />
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/javascript.svg" alt="javascript" />
+                <p>Java Script </p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/python.svg" alt="Python" />
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/pandas.svg" alt="pandas" />
+                <p>Pandas</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/git.svg" alt="Git" />
+                <p>Git</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/github.svg" alt="Github" />
+                <p>Github</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/cplusplus.svg" alt="C++" />
+                <p>C++</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/arduino.svg" alt="arduino" />
+                <p>Arduino </p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/12174769_ai_artificial intelligence_brain_icon.svg" alt="AI" />
+                <p>AI</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/8546827_aws_icon.svg" alt="aws" />
+                <p>AWS</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/9805191_vs code_logo_microsoft_visual studio code_code_icon.svg" alt="VS" />
+                <p>VS Code</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/ibm.svg" alt="ibm" />
+                <p>IBM</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/cisco.svg" alt="cisco" />
+                <p>Cisco</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/sql.svg" alt="sql" />
+                <p>SQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons/8666320_microsoft_icon.svg" alt="microsoft" />
+                <p>Microsoft</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Certificates-->
+    <section id="certificates" class="certifications">
+        <h2>CERTIFICATIONS</h2>
+        <div class="certificates-container" id="certificates-container">
+            <!--Shown certificate-->
+            <div class="certificate-card">
+                <h3>Certificate of Appreciation: TTN</h3>
+                <p>Tutor the Nation | Issued: Aug 2025</p>
+                <a href="https://drive.google.com/file/d/1MpOQtIVVxQEXZMCIe_wy5FIP396mB_PJ/view?usp=sharing"
+                    target="_blank" class="verify-link">Verify Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <h3>Certificate of Appreciation: Course Rep</h3>
+                <p>BCUSU | Issued: July 2025</p>
+                <a href="https://drive.google.com/file/d/1fAzYalLYVNAj70CsqjDnrV1M-xoCArHo/view?usp=sharing"
+                    target="_blank" class="verify-link">Verify Certificate</a>
+            </div>
+
+            <div class="certificate-card">
+                <h3>Activity Leader Training</h3>
+                <p>English UK | Issued: May 2025</p>
+                <a href="https://drive.google.com/file/d/1hjJwtXWfCzOJd8UjHtE8Y3K5JLrxD7j_/view?usp=sharing"
+                    target="_blank" class="verify-link">Verify Certificate</a>
+            </div>
+
+            <div class="certificate-card">
+                <h3>Safeguarding for Activity Staff</h3>
+                <p>British Council | Issued: May 2025</p>
+                <a href="https://drive.google.com/file/d/1-_STcCYZ9rU4iNpzpLWKjLp8PQn-9tYg/view?usp=sharing"
+                    target="_blank" class="verify-link">Verify Certificate</a>
+            </div>
+
+            <div class="certificate-card">
+                <h3>Amazon Class Chats: Building Solutions in the Cloud</h3>
+                <p>Amazon | Issued: April 2025</p>
+                <a href="https://experience.springpod.co.uk/certificates/uzqbusnd8o" target="_blank"
+                    class="verify-link">Verify Certificate</a>
+            </div>
+
+            <div class="certificate-card">
+                <h3>Building a Machine Learning Ready Organization</h3>
+                <p>AWS | Issued: March 2025</p>
+                <a href="https://drive.google.com/file/d/13ZQdPilbaniNdz0oJ9uLkK0ZEvK_1XQ_/view?usp=sharing"
+                    target="_blank" class="verify-link">Verify Certificate</a>
+            </div>
+
+            <!--Rest of certificates-->
+            <!-- The rest of the certificates (hidden by default) -->
+            <div id="more-certificates" style="display: none;">
+                <div class="certificate-card">
+                    <h3>IBM Z Xplore - Concepts</h3>
+                    <p>IBM | Issued: March 2025</p>
+                    <a href="https://www.credly.com/badges/394232d9-aeae-4d48-9f91-e9cc791cb22a/public_url"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/css.svg" alt="CSS" />
-                    <p>CSS</p>
+
+                <div class="certificate-card">
+                    <h3>It’s not just business: AI risks, rewards, and responsibilities</h3>
+                    <p>The Alan Turing Institute | Issued: March 2025</p>
+                    <a href="https://learn.turing.ac.uk/pluginfile.php/1/tool_certificate/issues/1742316106/6615404318SK.pdf"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/javascript.svg" alt="javascript" />
-                    <p>Java Script </p>
+
+                <div class="certificate-card">
+                    <h3>Viasat: Space For Good UK University| Phase 1</h3>
+                    <p>Springpod | Issued: March 2025</p>
+                    <a href="https://experience.springpod.co.uk/certificates/llseayq0j8" target="_blank"
+                        class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/python.svg" alt="Python" />
-                    <p>Python</p>
+
+                <div class="certificate-card">
+                    <h3>Viasat: Space For Good UK University | Phase 2</h3>
+                    <p>Springpod | Issued: March 2025</p>
+                    <a href="https://experience.springpod.co.uk/certificates/bzozzgxhwk" target="_blank"
+                        class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/pandas.svg" alt="pandas" />
-                    <p>Pandas</p>
+
+                <div class="certificate-card">
+                    <h3>Enterprise Design Thinking Practitioner</h3>
+                    <p>IBM | Issued: Feb 2025</p>
+                    <a href="https://www.credly.com/badges/ea8761b2-074f-4562-b85b-b555f4672d18/public_url"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/git.svg" alt="Git" />
-                    <p>Git</p>
+
+                <div class="certificate-card">
+                    <h3>Introduction to Data Science</h3>
+                    <p>Cisco | Issued: Feb 2025</p>
+                    <a href="https://www.credly.com/badges/2eea8b09-b426-4def-a209-33f9a6bdb832/public_url"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/github.svg" alt="Github" />
-                    <p>Github</p>
+
+                <div class="certificate-card">
+                    <h3>Python Essentials 1</h3>
+                    <p>Cisco | Issued: Feb 2025</p>
+                    <a href="https://www.credly.com/badges/2740612b-7f7b-45ed-86b9-264265bc7db5/public_url"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/cplusplus.svg" alt="C++" />
-                    <p>C++</p>
+
+                <div class="certificate-card">
+                    <h3>Mastercard - Advisors & Consulting Services Job Simulation</h3>
+                    <p>Forage | Issued: Feb 2025</p>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mfxGwGDp6WkQmtmTf/DZxgGgvMB6cEtEyJg_mfxGwGDp6WkQmtmTf_7CELeEXspDLZAJdpt_1739657330971_completion_certificate.pdf"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/arduino.svg" alt="arduino" />
-                    <p>Arduino </p>
+
+                <div class="certificate-card">
+                    <h3>Mastercard - Cybersecurity Job Simulation</h3>
+                    <p>Forage | Issued: Feb 2025</p>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mfxGwGDp6WkQmtmTf/vcKAB5yYAgvemepGQ_mfxGwGDp6WkQmtmTf_7CELeEXspDLZAJdpt_1739656666125_completion_certificate.pdf"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/12174769_ai_artificial intelligence_brain_icon.svg" alt="AI" />
-                    <p>AI</p>
+
+                <div class="certificate-card">
+                    <h3>Introduction to Generative AI</h3>
+                    <p>AWS | Issued: Jan 2025</p>
+                    <a href="https://drive.google.com/file/d/1zD-wCwPt7OBLkjsqi38Qzj17gwFACD47/view?usp=sharing"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
-                <div class="skill-item">
-                    <img src="icons/8546827_aws_icon.svg" alt="aws" />
-                    <p>AWS</p>
-                </div>
-                <div class="skill-item">
-                    <img src="icons/9805191_vs code_logo_microsoft_visual studio code_code_icon.svg" alt="VS" />
-                    <p>VS Code</p>
-                </div>
-                <div class="skill-item">
-                    <img src="icons/8666320_microsoft_icon.svg" alt="microsoft" />
-                    <p>Microsoft</p>
+
+                <div class="certificate-card">
+                    <h3>Adult and Pediatric First Aid/CPR/AED</h3>
+                    <p>Care Angel Homecare | Issued: Jan 2025</p>
+                    <a href="https://drive.google.com/file/d/19CCdDKwt8kGMbgUT6DAWbjb9Y0L0ZuNU/view?usp=sharing"
+                        target="_blank" class="verify-link">Verify Certificate</a>
                 </div>
             </div>
-        </section>
+            <button id="loadMoreBtn" onclick="loadMore()">Load More</button>
+    </section>
 
-        <!--Certificates-->
-        <section class="certifications">
-            <h2>CERTIFICATIONS</h2>
-            <div class="certificates-container">
-                <!-- repeat certificate-card divs -->
-                <div class="certificate-card">
-                    <h3>AWS Certified Developer</h3>
-                    <p>Issued: July 2024</p>
-                    <a href="certificate1.pdf" target="_blank" class="verify-link">Verify Certificate</a>
+
+    <section id="badges" class="badges-section">
+        <h2>BADGES</h2>
+        <div class="badges-container">
+            <div class="badge">
+                <img src="badges/mentor.jpg" alt="shecancode">
+                <p class="badge-text">Mentor: She Can Code </p>
+                <p>Issued: Apr 2025</p>
+            </div>
+            <div class="badge">
+                <img src="badges/canva 10.png" alt="canva">
+                <p class="badge-text">Canva 10 Design Milestone Badge</p>
+                <p>Issued: Mar 2025</p>
+            </div>
+            <div class="badge">
+                <img src="badges/bronze award bcu.png" alt="bcu">
+                <p class="badge-text">Bronze Award for Engaging in Extracurricular Activities</p>
+                <p> Issued: Feb 2025</p>
+            </div>
+            <div class="badge">
+                <img src="badges/enactus 101.jpg" alt="enactus">
+                <p class="badge-text">Enactus 101</p>
+                <p> Issued: Feb 2025</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ===== Awards Section ===== -->
+    <section id="awards" class="awards-section">
+        <h2>AWARDS</h2>
+        <div class="trophy-wall">
+
+            <div class="trophy-card">
+                <img src="awards/viasat.jpg" alt="Viasat Award">
+                <div class="overlay">Finalist – Viasat: Space for Good UK 2025 <br> Selected nationwide for
+                    AI-powered
+                    solar project.</div>
+            </div>
+
+            <div class="trophy-card">
+                <img src="awards/Nominated.png" alt="Women in Tech Award">
+                <div class="overlay">Nominated – Women in Tech Awards 2025 <br> Honoured for impact and innovation
+                    in
+                    technology.</div>
+            </div>
+
+            <div class="trophy-card">
+                <img src="awards/mastermind.jpeg" alt="Tech Fest 2022 Award">
+                <div class="overlay">First Prize – Tech Fest 2022 Masterminds @ DCJ <br> Awarded for an exceptional
+                    science extempore performance.</div>
+            </div>
+
+            <div class="trophy-card">
+                <img src="awards/punjabi.jpeg" alt="Punjabi Poem Award">
+                <div class="overlay">3rd Place – Punjabi Poem Competition 2022 <br> Recognised for creative
+                    expression
+                    and literary skill.</div>
+            </div>
+
+            <div class="trophy-card">
+                <img src="awards/choreography.jpeg" alt="Choreography Award">
+                <div class="overlay">Best Choreography – Independence Day 2018 <br> Honoured for outstanding
+                    performance and creative dance presentation.</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Recommendations-->
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <div class="testimonial-wrapper">
+                <!-- Left Testimonial -->
+                <div class="testimonial-card left" data-index="0">
+                    <div class="author-avatar"><img src="images/chiara.jpg" alt="asha avatar"></div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Chiara White</h4>
+                            <p>Recruitment Consultant, Archer Resourcing | Study Mind, LessonWise</p>
+                        </div>
+                    </div>
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        I enjoy working with Snehdeep, and I can confidently say she is one of the kindest and most
+                        dedicated educators I have ever met. She works with many students including those within SEN.
+                        Snehdeep is one of the loveliest people I have had the pleasure of working with. She brings
+                        warmth, positivity, and kindness to every interaction, creating a supportive and enjoyable
+                        environment for everyone around her.
+                    </p>
                 </div>
 
-                <div class="certificate-card">
-                    <h3>Data Science Professional</h3>
-                    <p>Issued: March 2025</p>
-                    <a href="certificate2.pdf" target="_blank" class="verify-link">Verify Certificate</a>
+                <!-- Center Testimonial -->
+                <div class="testimonial-card center" data-index="1">
+                    <div class="author-avatar"><img src="images/adrian.jpg" , alt="adrain avatar"> </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Adrian Fitzpatrick</h4>
+                            <p>Senior Director, Viasat | Mentor, Viasat Space for Good Program</p>
+                        </div>
+                    </div>
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        “I had the privilege of mentoring Snehdeep during the Viasat Space for Good program. She is
+                        remarkably resilient, driven, and impressive, with excellent presentation skills and a
+                        strong willingness to learn. Snehdeep is determined to succeed while showing a genuine
+                        desire to give back and help others. I have no doubt she will excel in her studies and any
+                        future career path she chooses. She brings great energy, dedication, and instant value to
+                        any position she undertakes.”
+                    </p>
+                </div>
+
+                <!-- Right Testimonial -->
+                <div class="testimonial-card right" data-index="2">
+                    <div class="author-avatar"><img src="images/nahal.jpg" , alt="nahal avatar"> </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Nahal Namvari</h4>
+                            <p>Creative Project Manager | Event Planner, Group GTI</p>
+                        </div>
+                    </div>
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        “I highly recommend Snehdeep as a hardworking and meticulous student. She recently completed
+                        Student Judging for us at TargetJobs for the prestigious National Graduate Awards,
+                        delivering work to an exceptionally high standard. I believe she will be a fantastic asset
+                        to any future workplace and wish her the very best on her career journey.”
+                    </p>
                 </div>
             </div>
 
-        </section>
+            <!-- Navigation Dots -->
+            <div class="dots-container">
+                <div class="dot" data-slide="0"></div>
+                <div class="dot active" data-slide="1"></div>
+                <div class="dot" data-slide="2"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Get in Touch-->
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="contact-title">GET IN TOUCH</h2>
+        <div class="contact-container">
+
+            <!-- Left Side - Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <img src="icons/envelope-solid-full.svg">
+                    <div>
+                        <span class="label">Email</span><br>
+                        <a class="value" href="mailto: snehdeepkaur.-@mail.bcu.ac.uk" target="_blank">
+                            snehdeepkaur.-@mail.bcu.ac.uk
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <img src="icons/linkedin-brands-solid-full.svg">
+                    <div>
+                        <span class="label">LinkedIn</span><br>
+                        <a class="value" href="https://linkedin.com/in/snehdeepkaur09" target="_blank">
+                            linkedin.com/in/snehdeepkaur09
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <img src="icons/github-brands-solid-full.svg">
+                    <div>
+                        <span class="label">GitHub</span><br>
+                        <a class="value" href="https://github.com/snehdeepkaur-09" target="_blank">
+                            github.com/snehdeepkaur-09
+                        </a>
+                    </div>
+                </div>
+
+                <div class="current-status">
+                    <h4>Current Status</h4>
+                    <p><span class="status-dot"></span> Second-year student seeking placement opportunities for 2026/27
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Side - Contact Form -->
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form action="https://formspree.io/f/xandnnee" method="POST">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="youremail@example.com">
+
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Your Subject">
+
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Your detailed message here...."></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="form-status" class="form-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Social Icons -->
+    <div class="social-icons">
+        <a href="https://drive.google.com/file/d/1p0MDilVOyRRDQw3r3KrI4eigteeqMuD3/view?usp=sharing" target="_blank"
+            title="resume">
+            <img src="icons/file-pdf-solid-full.svg">
+        </a>
+        <a href="https://github.com/snehdeepkaur-09" target="_blank" title="GitHub">
+            <img src="icons/github-brands-solid-full.svg">
+
+        </a>
+        <a href="https://www.linkedin.com/in/snehdeepkaur09/" target="_blank" title="LinkedIn">
+            <img src="icons/linkedin-brands-solid-full.svg">
+        </a>
+        <a href="mailto:s.snehdeep2007@gmail.com" title="Email">
+            <img src="icons/envelope-solid-full.svg">
+
+        </a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-section">
+                <h2>Snehdeep Kaur</h2>
+                <p>Passionate about turning curiosity into code, <br> and knowledge into impact.</p>
+
+                <!-- Download Resume Button -->
+                <div class="resume-download">
+                    <a href="https://drive.google.com/uc?export=download&id=1p0MDilVOyRRDQw3r3KrI4eigteeqMuD3"
+                        target="_blank">
+                        <button class="download-btn">Download My Resume</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work-experience">Work Experience</a></li>
+                    <li><a href="#volunteer-experience">Volunteer Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#badges">Badges</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Services / Studies</h3>
+                <p>Studies: BSc Computer Science with AI <br> Services: Tutoring, Tech Projects, Event Management</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>
+                    <img src="icons/envelope-solid-full.svg" class="footer-icon">
+                    <a href="mailto:s.snehdeep2007@gmail.com">s.snehdeep2007@gmail.com</a>
+                </p>
+                <p>
+                    <img src="icons/linkedin-brands-solid-full.svg" class="footer-icon">
+                    <a href="https://www.linkedin.com/in/snehdeepkaur09" target="_blank">
+                        linkedin.com/in/snehdeepkaur09
+                    </a>
+                </p>
+                <p>
+                    <img src="icons/github-brands-solid-full.svg" class="footer-icon">
+                    <a href="https://www.github.com/snehdeepkaur-09" target="_blank">
+                        github.com/snehdeepkaur-09
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <p>Designed & Built by Snehdeep Kaur © 2025 | All Rights Reserved</p>
+            </div>
+            <div class="footer-right">
+                <a href="#top">Privacy Policy</a> |
+                <a href="#top">Cookies</a> |
+                <a href="#top">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn"><img src="icons/arrow-top-right-5-circle-svgrepo-com (1).svg"></button>
 
 
 
 
 
 
+    <script>
+        // Start Slideshow
+        let slideIndex = 0;  // initialize slide index
 
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("slide");
 
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
 
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
 
+            slides[slideIndex - 1].style.display = "block";
 
+            setTimeout(showSlides, 4000); // Change slide every 4 seconds
+        }
 
+        showSlides(); // Start the slideshow
 
+        // Modal for image gallery project
+        function toggleDetails(id) {
+            const el = document.getElementById(id);
+            el.style.display = (el.style.display === 'none' || el.style.display === '') ? 'block' : 'none';
+        }
 
+        function openModal(id) {
+            document.getElementById(id).style.display = 'block';
+        }
 
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script>
-            // Start Slideshow
-            let slideIndex = 0;  // initialize slide index
-
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("slide");
-
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
+        // Close modal if clicked outside content
+        window.onclick = function (event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
                 }
+            });
+        };
 
-                slideIndex++;
-                if (slideIndex > slides.length) { slideIndex = 1 }
+        //Images of project
+        const galleryImages = {
+            robotic: [
+                "images/ROBOTIC NURSE The future of healthcare.png",
+                "images/R2.jpg",
+                "images/R3.jpg",
+                "images/R5.jpg",
+                "images/R7.jpg",
+                "images/R1.jpg",
+                "images/R6.png",
+                "images/R4.png",
+                "images/sustainable.png",
+                "images/logo robot.png",
+                "images/innovation fest.jpg"
+            ],
 
-                slides[slideIndex - 1].style.display = "block";
+            space: [
+                "images/SBSP2.png",
+                "images/SBSP3.png",
+                "images/SBSP4.png",
+                "images/AI Brain.png",
+                "images/logo sbsp.png",
+                "images/present2 me.png"
+            ],
+        };
 
-                setTimeout(showSlides, 4000); // Change slide every 4 seconds
+        let currentImageIndex = 0;
+        let currentGallery = [];
+        let currentProject = "";
+
+        function openImageGallery(project) {
+            currentProject = project;
+            currentGallery = galleryImages[project];
+            currentImageIndex = 0;
+            document.getElementById(`${project}-gallery`).style.display = "block";
+            showGalleryImage();
+        }
+
+        function changeImage(n) {
+            currentImageIndex += n;
+
+            if (currentImageIndex < 0) currentImageIndex = currentGallery.length - 1;
+            if (currentImageIndex >= currentGallery.length) currentImageIndex = 0;
+
+            showGalleryImage();
+        }
+
+        function showGalleryImage() {
+            const img = document.getElementById(`${currentProject}-gallery-image`);
+            if (img) {
+                img.src = currentGallery[currentImageIndex];
             }
+        }
 
-            showSlides(); // Start the slideshow
+        function closeGallery(project) {
+            document.getElementById(`${project}-gallery`).style.display = "none";
+        }
 
+        // Experience Scroll Section
+        document.addEventListener("DOMContentLoaded", function () {
+            const items = document.querySelectorAll(".timeline-item");
 
-            // Modal for image gallery project
-            function toggleDetails(id) {
-                const el = document.getElementById(id);
-                el.style.display = (el.style.display === 'none' || el.style.display === '') ? 'block' : 'none';
-            }
+            function checkScroll() {
+                const triggerBottom = window.innerHeight * 0.85;
 
-            function openModal(id) {
-                document.getElementById(id).style.display = 'block';
-            }
+                items.forEach(item => {
+                    const itemTop = item.getBoundingClientRect().top;
 
-            function closeModal(id) {
-                document.getElementById(id).style.display = 'none';
-            }
-
-            // Close modal if clicked outside content
-            window.onclick = function (event) {
-                const modals = document.querySelectorAll('.modal');
-                modals.forEach(modal => {
-                    if (event.target === modal) {
-                        modal.style.display = 'none';
+                    if (itemTop < triggerBottom) {
+                        item.classList.add("show");
+                    } else {
+                        item.classList.remove("show");
                     }
                 });
-            };
-
-
-            //Images of project
-            const galleryImages = {
-                robotic: [
-                    "images/ROBOTIC NURSE The future of healthcare.png",
-                    "images/R2.jpg",
-                    "images/R3.jpg",
-                    "images/R5.jpg",
-                    "images/R7.jpg",
-                    "images/R1.jpg",
-                    "images/R6.png",
-                    "images/R4.png",
-                    "images/sustainable.png",
-                    "images/logo robot.png",
-                    "images/innovation fest.jpg"
-                ],
-
-                space: [
-                    "images/SBSP2.png",
-                    "images/SBSP3.png",
-                    "images/SBSP4.png",
-                    "images/AI Brain.png",
-                    "images/logo sbsp.png",
-                    "images/present2 me.png"
-                ],
-            };
-
-            let currentImageIndex = 0;
-            let currentGallery = [];
-            let currentProject = "";
-
-            function openImageGallery(project) {
-                currentProject = project;
-                currentGallery = galleryImages[project];
-                currentImageIndex = 0;
-                document.getElementById(`${project}-gallery`).style.display = "block";
-                showGalleryImage();
             }
 
-            function changeImage(n) {
-                currentImageIndex += n;
+            window.addEventListener("scroll", checkScroll);
+            checkScroll(); // Run on load in case some items are already in view
+        });
 
-                if (currentImageIndex < 0) currentImageIndex = currentGallery.length - 1;
-                if (currentImageIndex >= currentGallery.length) currentImageIndex = 0;
+        //more certificates
+        function loadMore() {
+            const moreCerts = document.getElementById('more-certificates');
+            const btn = document.getElementById('loadMoreBtn');
 
-                showGalleryImage();
+            if (moreCerts.style.display === 'none' || moreCerts.style.display === '') {
+                moreCerts.style.display = 'flex';
+                moreCerts.style.flexWrap = 'wrap';
+                moreCerts.style.gap = '1.25rem';
+                btn.textContent = 'Show Less';
+            } else {
+                moreCerts.style.display = 'none';
+                btn.textContent = 'Load More';
             }
+        }
 
-            function showGalleryImage() {
-                const img = document.getElementById(`${currentProject}-gallery-image`);
-                if (img) {
-                    img.src = currentGallery[currentImageIndex];
+        //recommendations
+        const testimonials = document.querySelectorAll('.testimonial-card');
+        const dots = document.querySelectorAll('.dot');
+        let currentSlide = 1; // Start with center testimonial
+
+        function updateTestimonials(activeIndex) {
+            testimonials.forEach((testimonial, index) => {
+                testimonial.classList.remove('left', 'center', 'right');
+
+                if (index === activeIndex) {
+                    testimonial.classList.add('center');
+                } else if (index === (activeIndex - 1 + testimonials.length) % testimonials.length) {
+                    testimonial.classList.add('left');
+                } else if (index === (activeIndex + 1) % testimonials.length) {
+                    testimonial.classList.add('right');
                 }
-            }
-
-            function closeGallery(project) {
-                document.getElementById(`${project}-gallery`).style.display = "none";
-            }
-
-
-
-            // Experience Scroll Section
-            document.addEventListener("DOMContentLoaded", function () {
-                const items = document.querySelectorAll(".timeline-item");
-
-                function checkScroll() {
-                    const triggerBottom = window.innerHeight * 0.85;
-
-                    items.forEach(item => {
-                        const itemTop = item.getBoundingClientRect().top;
-
-                        if (itemTop < triggerBottom) {
-                            item.classList.add("show");
-                        } else {
-                            item.classList.remove("show");
-                        }
-                    });
-                }
-
-                window.addEventListener("scroll", checkScroll);
-                checkScroll(); // Run on load in case some items are already in view
             });
 
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === activeIndex);
+            });
+        }
+
+        // Dot navigation
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateTestimonials(currentSlide);
+            });
+        });
+
+        // Card click navigation
+        testimonials.forEach((card, index) => {
+            card.addEventListener('click', () => {
+                if (!card.classList.contains('center')) {
+                    currentSlide = index;
+                    updateTestimonials(currentSlide);
+                }
+            });
+        });
+
+        // Auto-rotate testimonials every 5 seconds
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % testimonials.length;
+            updateTestimonials(currentSlide);
+        }, 10000);
+
+        // Initialize
+        updateTestimonials(currentSlide);
+
+        //contact 
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            // Show success message
+            const successMessage = document.getElementById('successMessage');
+            successMessage.classList.remove('hidden');
+
+            // Reset form
+            event.target.reset();
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.classList.add('hidden');
+            }, 5000);
+        }
+
+        //button to top
+        const scrollBtn = document.getElementById("scrollToTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
 
 
-        </script>
+        //hamburger menu
+        document.addEventListener("DOMContentLoaded", () => {
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.querySelector('.navlinks');
+
+            // Hamburger toggle
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('nav-active');
+            });
+
+            // Dropdown toggle
+            document.querySelectorAll(".dropdown-toggle").forEach(toggle => {
+                toggle.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const menu = this.nextElementSibling;
+
+                    // Close others
+                    document.querySelectorAll(".dropdown-menu").forEach(m => {
+                        if (m !== menu) m.classList.remove("show-dropdown");
+                    });
+
+                    // Toggle this one
+                    menu.classList.toggle("show-dropdown");
+                });
+            });
+
+            // Close hamburger only when non-dropdown clicked
+            document.querySelectorAll('.navlinks a:not(.dropdown-toggle)').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('nav-active');
+                });
+            });
+        });
 
 
+
+        //for mobile image scrolll
+        if (window.innerWidth <= 768) {
+            const track = document.querySelector('.scroller-track');
+            let scrollPos = 0;
+
+            function scrollImages() {
+                scrollPos += 0.3; // slower scroll
+                if (scrollPos >= track.scrollWidth / 2) {
+                    scrollPos -= track.scrollWidth / 2; // seamless loop
+                }
+                track.style.transform = `translateX(-${scrollPos}px)`;
+                requestAnimationFrame(scrollImages);
+            }
+
+            scrollImages();
+        }
+
+
+        //conatct form
+        const form = document.querySelector('.contact-form form');
+        const status = document.getElementById('form-status');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); // prevent page reload
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: form.method,
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    status.innerHTML = " Your message was submitted successfully. I will get back to you shortly.";
+                    status.style.display = "block";
+                    form.reset(); // clear the form
+                    setTimeout(() => {
+                        status.style.display = "none"; // hide after 5 seconds
+                    }, 5000);
+                } else {
+                    status.innerHTML = " Oops! There was a problem sending your message.";
+                    status.style.display = "block";
+                }
+            } catch (error) {
+                status.innerHTML = " Oops! Something went wrong. Please try again.";
+                status.style.display = "block";
+            }
+        });
+
+    </script>
 </body>
 
 </html>
