@@ -22,6 +22,7 @@ body {
   background-color: var(--accent);
   color: var(--primary);
   overflow-x: hidden;
+  overscroll-behavior-y: contain;
 }
 
 header {
@@ -2287,6 +2288,7 @@ section {
   .volunteer-container {
     max-width: 800px;
     gap: 50px;
+    margin-right: 30px;
   }
 
   .flip-card {
