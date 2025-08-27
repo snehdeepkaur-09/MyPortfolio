@@ -26,17 +26,12 @@
 
 ## 💻 Projects
 
-### Robotic Nurse
-- Intelligent Robotic Nurse for NHS staff: automated cleaning & medicine delivery  
-- Featured at **Innovation Fest 2025**  
-- **Technologies:** Arduino, AI, Robotics, 3D Design  
-[View Project](https://snehdeepkaur-portfolio.vercel.app/#projects)
+| Project | Description | Technologies | Link |
+|---------|-------------|--------------|------|
+| **Robotic Nurse** | Intelligent robot for NHS: automated cleaning & medicine delivery. Featured at Innovation Fest 2025 | ![Arduino](https://img.shields.io/badge/Arduino-339933?style=for-the-badge&logo=Arduino&logoColor=white) ![AI](https://img.shields.io/badge/AI-FF6F61?style=for-the-badge) ![Robotics](https://img.shields.io/badge/Robotics-0057FF?style=for-the-badge) | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
+| **Space for Good UK** | AI-Enhanced Space-Based Solar Power. Top 8 Finalist nationwide | ![AI](https://img.shields.io/badge/AI-FF6F61?style=for-the-badge) ![Aerospace](https://img.shields.io/badge/Aerospace-007FFF?style=for-the-badge) ![Satellite](https://img.shields.io/badge/Satellite-FFCC00?style=for-the-badge) | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
 
-### Space for Good UK Competition
-- AI-Enhanced Space-Based Solar Power (SBSP)  
-- **Top 8 Finalist** nationwide in Viasat University Challenge  
-- **Technologies:** AI, Aerospace, Satellite Tech, Google Colab  
-[View Project](https://snehdeepkaur-portfolio.vercel.app/#projects)
+---
 
 ---
 
