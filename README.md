@@ -1,6 +1,6 @@
 # Snehdeep Kaur | Computer Science & AI Student
 
-<p align="center">
+<p align="left">
   <a href="https://snehdeepkaur-portfolio.vercel.app/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/100/008080/domain.png" width="50" height="50" style="border-radius:50%;" alt="Portfolio"/>
   </a>
