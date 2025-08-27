@@ -33,14 +33,26 @@
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| **Robotic Nurse** | Intelligent robot for NHS: automated cleaning & medicine delivery. Featured at Innovation Fest 2025 | Arduino, AI, Robotics, 3D Design | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
-| **Space for Good UK** | AI-Enhanced Space-Based Solar Power. Top 8 Finalist nationwide | AI, Aerospace, Satellite Tech, Google Colab | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
+| **Robotic Nurse** | Intelligent robot for NHS: automated cleaning & medicine delivery. Featured at Innovation Fest 2025 | ![Arduino](https://img.shields.io/badge/Arduino-339933?style=for-the-badge&logo=Arduino&logoColor=white) ![AI](https://img.shields.io/badge/AI-FF6F61?style=for-the-badge) ![Robotics](https://img.shields.io/badge/Robotics-0057FF?style=for-the-badge) | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
+| **Space for Good UK** | AI-Enhanced Space-Based Solar Power. Top 8 Finalist nationwide | ![AI](https://img.shields.io/badge/AI-FF6F61?style=for-the-badge) ![Aerospace](https://img.shields.io/badge/Aerospace-007FFF?style=for-the-badge) ![Satellite](https://img.shields.io/badge/Satellite-FFCC00?style=for-the-badge) | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
 
 ---
 
 ## 🛠 Skills
-**Web & Programming:** HTML | CSS | JavaScript | Python | SQL | C++  
-**Tools & Platforms:** Arduino | AI | Git | GitHub | AWS | VS Code  
+<p align="center">
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=MySQL&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-339933?style=for-the-badge&logo=Arduino&logoColor=white)
+![AI](https://img.shields.io/badge/AI-FF6F61?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white)
+</p>
 
 ---
 
@@ -53,9 +65,11 @@
 ---
 
 ## 🏆 Achievements
-- **Viasat Space for Good UK 2025** – Finalist  
-- **Women in Tech Awards 2025** – Nominated  
-- **Course Representative** – BCU (2024–25)  
+<p align="center">
+![Viasat Finalist](https://img.shields.io/badge/Viasat-Top8Finalist-brightgreen?style=for-the-badge) 
+![Women in Tech](https://img.shields.io/badge/Women_in_Tech-Nominee-orange?style=for-the-badge) 
+![Course Rep](https://img.shields.io/badge/Course_Rep-2024--25-blue?style=for-the-badge)
+</p>
 
 ---
 
