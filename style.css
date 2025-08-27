@@ -1962,6 +1962,24 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+    width: 100%;
+  }
+  
+  /* Make sure all containers and images stay within viewport */
+  img,
+  .container,
+  section,
+  .slideshow-container {
+    max-width: 100%;
+    box-sizing: border-box;
+    /* Include padding/borders in width */
+  }
+
   .navbar {
     height: 60px;
   }
