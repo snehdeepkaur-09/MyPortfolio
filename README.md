@@ -1,23 +1,26 @@
 # Snehdeep Kaur | Computer Science & AI Student
 
-<p align="left">
+<p align="center">
   <a href="https://snehdeepkaur-portfolio.vercel.app/" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/100/008080/domain.png" width="50" height="50" style="border-radius:50%;" alt="Portfolio"/>
-  </a><br>
+    <img src="https://img.icons8.com/ios-filled/100/008080/domain.png" width="60" height="60" style="border-radius:50%;" alt="Portfolio" title="Portfolio"/>
+  </a>
   &nbsp;&nbsp;
   <a href="https://linkedin.com/in/snehdeepkaur09" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/100/0077B5/linkedin.png" width="50" height="50" style="border-radius:50%;" alt="LinkedIn"/>
-  </a><br>
+    <img src="https://img.icons8.com/ios-filled/100/0077B5/linkedin.png" width="60" height="60" style="border-radius:50%;" alt="LinkedIn" title="LinkedIn"/>
+  </a>
   &nbsp;&nbsp;
   <a href="https://github.com/snehdeepkaur-09" target="_blank">
-    <img src="https://img.icons8.com/ios-glyphs/100/000000/github.png" width="50" height="50" style="border-radius:50%;" alt="GitHub"/>
+    <img src="https://img.icons8.com/ios-glyphs/100/000000/github.png" width="60" height="60" style="border-radius:50%;" alt="GitHub" title="GitHub"/>
   </a>
 </p>
 
-----
+---
 
 ## 👋 About Me
-> "To me, being a woman in STEM isn’t just about representation - it’s about reshaping the future with every line of code."
+<p align="center">
+<img src="https://img.icons8.com/color/48/000000/woman-technologist.png"/>  
+*"To me, being a woman in STEM isn’t just about representation – it’s about reshaping the future with every line of code."*
+</p>
 
 - First-generation international student based in the UK  
 - Advocate for Women in STEM & inclusive tech education  
@@ -28,22 +31,16 @@
 
 ## 💻 Projects
 
-### Robotic Nurse
-- Intelligent Robotic Nurse for NHS staff: automated cleaning & medicine delivery  
-- Featured at **Innovation Fest 2025**  
-- **Technologies:** Arduino, AI, Robotics, 3D Design  
-[View More](https://snehdeepkaur-portfolio.vercel.app/#projects)
-
-### Space for Good UK Competition
-- AI-Enhanced Space-Based Solar Power (SBSP)  
-- **Top 8 Finalist** nationwide in the Viasat University Challenge  
-- **Technologies:** AI, Aerospace, Satellite Tech, Google Colab  
-[View More](https://snehdeepkaur-portfolio.vercel.app/#projects)
+| Project | Description | Technologies | Link |
+|---------|-------------|--------------|------|
+| **Robotic Nurse** | Intelligent robot for NHS: automated cleaning & medicine delivery. Featured at Innovation Fest 2025 | Arduino, AI, Robotics, 3D Design | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
+| **Space for Good UK** | AI-Enhanced Space-Based Solar Power. Top 8 Finalist nationwide | AI, Aerospace, Satellite Tech, Google Colab | [View Project](https://snehdeepkaur-portfolio.vercel.app/#projects) |
 
 ---
 
 ## 🛠 Skills
-HTML | CSS | JavaScript | Python | SQL | C++ | Arduino | AI | Git | GitHub | AWS | VS Code
+**Web & Programming:** HTML | CSS | JavaScript | Python | SQL | C++  
+**Tools & Platforms:** Arduino | AI | Git | GitHub | AWS | VS Code  
 
 ---
 
@@ -63,9 +60,11 @@ HTML | CSS | JavaScript | Python | SQL | C++ | Arduino | AI | Git | GitHub | AWS
 ---
 
 ## 📫 Contact
-- Email: s.snehdeep2007@gmail.com  
-- LinkedIn: [linkedin.com/in/snehdeepkaur09](https://linkedin.com/in/snehdeepkaur09)  
-- GitHub: [github.com/snehdeepkaur-09](https://github.com/snehdeepkaur-09)
+<p align="center">
+<a href="mailto:s.snehdeep2007@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" width="50" height="50" style="border-radius:50%;" alt="Email" title="Email"/></a>
+<a href="https://linkedin.com/in/snehdeepkaur09" target="_blank"><img src="https://img.icons8.com/ios-filled/50/0077B5/linkedin.png" width="50" height="50" style="border-radius:50%;" alt="LinkedIn" title="LinkedIn"/></a>
+<a href="https://github.com/snehdeepkaur-09" target="_blank"><img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" width="50" height="50" style="border-radius:50%;" alt="GitHub" title="GitHub"/></a>
+</p>
 
 ---
 
