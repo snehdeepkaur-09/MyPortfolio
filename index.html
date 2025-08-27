@@ -1164,21 +1164,18 @@
 
         function showSlides() {
             for (let i = 0; i < slides.length; i++) {
-                slides[i].classList.remove("active");
-                slides[i].style.display = "none"; // keep desktop working
+                slides[i].style.display = "none";
             }
 
             slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
+            if (slideIndex > slides.length) { slideIndex = 1; }
 
-            slides[slideIndex - 1].style.display = "block"; // desktop fallback
-            slides[slideIndex - 1].classList.add("active"); // mobile fade
+            slides[slideIndex - 1].style.display = "block";
 
-            setTimeout(showSlides, 4000);
+            setTimeout(showSlides, 4000); // 4 seconds per slide
         }
 
         showSlides();
-
 
         // Modal for image gallery project
         function toggleDetails(id) {
