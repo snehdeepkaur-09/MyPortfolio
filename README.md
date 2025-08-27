@@ -3,11 +3,11 @@
 <p align="left">
   <a href="https://snehdeepkaur-portfolio.vercel.app/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/100/008080/domain.png" width="50" height="50" style="border-radius:50%;" alt="Portfolio"/>
-  </a>
+  </a><br>
   &nbsp;&nbsp;
   <a href="https://linkedin.com/in/snehdeepkaur09" target="_blank">
     <img src="https://img.icons8.com/ios-filled/100/0077B5/linkedin.png" width="50" height="50" style="border-radius:50%;" alt="LinkedIn"/>
-  </a>
+  </a><br>
   &nbsp;&nbsp;
   <a href="https://github.com/snehdeepkaur-09" target="_blank">
     <img src="https://img.icons8.com/ios-glyphs/100/000000/github.png" width="50" height="50" style="border-radius:50%;" alt="GitHub"/>
