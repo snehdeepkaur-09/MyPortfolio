@@ -21,6 +21,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--accent);
   color: var(--primary);
+  overflow-x: hidden;
 }
 
 header {
@@ -1966,11 +1967,9 @@ section {
   html,
   body {
     overflow-x: hidden;
-    /* Prevent horizontal scroll */
     width: 100%;
   }
-  
-  /* Make sure all containers and images stay within viewport */
+
   img,
   .container,
   section,
