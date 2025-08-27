@@ -1984,7 +1984,7 @@ section {
   }
 
   .container {
-    gap: 180px;
+    gap: 10px;
     justify-content: space-between;
   }
 
@@ -2066,6 +2066,7 @@ section {
   .hamburger {
     display: block;
     cursor: pointer;
+    margin-left: 90px;
   }
 
   .hamburger img {
