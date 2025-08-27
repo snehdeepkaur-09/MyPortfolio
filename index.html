@@ -1281,6 +1281,17 @@
             checkScroll(); // Run on load in case some items are already in view
         });
 
+        // Select all trophy cards
+        const trophyCards = document.querySelectorAll('.trophy-card');
+
+        trophyCards.forEach(card => {
+            card.addEventListener('click', () => {
+                // Toggle 'active' class on tap
+                card.classList.toggle('active');
+            });
+        });
+
+
         //more certificates
         function loadMore() {
             const moreCerts = document.getElementById('more-certificates');

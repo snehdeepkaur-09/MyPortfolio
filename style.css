@@ -2429,8 +2429,38 @@ section {
   }
 
   .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffe4ed;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
     font-size: 12px;
+    opacity: 0;
+    /* hidden by default */
+    transition: opacity 0.3s ease;
   }
+
+  /* Desktop hover */
+  @media (hover: hover) {
+    .trophy-card:hover .overlay {
+      opacity: 1;
+    }
+
+    .trophy-card:hover img {
+      transform: scale(1);
+    }
+  }
+
+  /* Mobile tap */
+  .trophy-card.active .overlay {
+    opacity: 1;
+  }
+
 
   /*Recommendations */
   .testimonial-section {
