@@ -2605,11 +2605,13 @@ section {
   }
 
   #scrollToTopBtn {
-    display: none;
+    display: none !important;
+    background: none !important;
+    box-shadow: none !important;
   }
 
   #scrollToTopBtn img {
-    display: none;
+    display: none !important;
   }
 
   #scrollToTopBtn:hover {
