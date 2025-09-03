@@ -1601,7 +1601,6 @@ section {
   min-width: 300px;
   text-align: left;
   color: #f9fafb;
-  max-height: 420px;
 }
 
 .contact-form {
@@ -2536,7 +2535,7 @@ section {
   }
 
   .testimonial-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   /*Contact */
