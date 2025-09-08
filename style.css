@@ -292,7 +292,6 @@ section {
 }
 
 .projects-section {
-  max-width: 1000px;
   margin: 0 auto 80px auto;
   padding: 0 20px;
   color: #ffe4ed;
@@ -300,7 +299,7 @@ section {
 }
 
 .projects-section h2 {
-  font-size: 36px;
+  font-size: 30px;
   text-decoration: underline;
   margin-bottom: 35px;
   text-align: center;
@@ -311,7 +310,8 @@ section {
   display: flex;
   gap: 30px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
 
 .project-card {
@@ -348,7 +348,7 @@ section {
 }
 
 .project-info h3 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
@@ -391,6 +391,31 @@ section {
 .read-more-btn:hover {
   background-color: #006666;
 }
+
+.github-icon-box {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  /* spacing from Read More button */
+  background-color: #004d4d;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.github-icon-box img {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  /* center the icon vertically */
+}
+
+.github-icon-box:hover {
+  transform: scale(1.1);
+}
+
 
 .project-details {
   padding: 0 20px 20px 20px;
@@ -2128,7 +2153,23 @@ section {
   }
 
   .projects-section {
-    margin-bottom: 20px;
+    margin: 20px;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    /* vertical stack */
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    /* no horizontal scroll */
+    gap: 40px;
+  }
+
+  .project-card {
+    flex: 1 1 100%;
+    /* full width of container */
+    height: auto;
+    /* let height adjust to content */
   }
 
   .projects-section h2 {
@@ -2163,6 +2204,8 @@ section {
     font-size: 12px;
     padding: 6px 14px;
   }
+
+
 
   #education {
     padding: 20px 20px 0px;
@@ -2676,6 +2719,29 @@ section {
   }
 
   /*Modal read more in projects */
+  .project-buttons {
+    flex-direction: row;
+    /* stack vertically */
+    align-items: flex-start;
+    /* align left (or use center if preferred) */
+    gap: 8px;
+  }
+
+  .github-icon-circle {
+    margin-top: 5px;
+  }
+
+  .github-icon-box{
+    width: 25px;
+    height: 25px;
+  }
+
+  .github-icon-box img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
   .modal-content {
     width: 95%;
     margin: 10px;
