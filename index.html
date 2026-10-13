@@ -56,39 +56,37 @@
     </header>
 
 
-    <div class="slideshow-container">
-        <div class="slide fade">
-            <img src="images/Innovation me.png" alt="Innovation project robotic nurse">
+    <section id="top" class="hero-section">
+        <div class="hero-content">
+            <p class="hero-eyebrow">COMPUTER SCIENCE &amp; ARTIFICIAL INTELLIGENCE</p>
+            <h1>Hi, I'm <span>Snehdeep Kaur.</span></h1>
+            <p class="hero-lead">I build practical technology, explore applied AI, and turn complex problems into clear, useful solutions.</p>
+            <p class="hero-summary">Software engineering · Data · AI</p>
+            <div class="hero-actions">
+                <a class="hero-button hero-button-primary" href="https://drive.google.com/file/d/1p0MDilVOyRRDQw3r3KrI4eigteeqMuD3/view?usp=sharing" target="_blank" rel="noopener noreferrer">View my CV <span aria-hidden="true">↗</span></a>
+                <a class="hero-button hero-button-secondary" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-proof">
+                <span>First-Class results</span>
+                <span>Viasat · Software Engineering</span>
+                <span>HMRC · IT Service Placement</span>
+            </div>
         </div>
-        <div class="slide fade">
-            <img src="images/Speaking me.png" alt="Speaking">
+        <div class="hero-visual" aria-label="Photo placeholder">
+            <div class="hero-photo-placeholder">
+                <span class="hero-photo-mark" aria-hidden="true">SK</span>
+                <p>Your photo goes here</p>
+                <span>Add an image when you're ready</span>
+            </div>
+            <div class="hero-accent-card">
+                <span class="hero-accent-dot" aria-hidden="true"></span>
+                <div>
+                    <strong>Curious by nature.</strong>
+                    <p>Engineer-minded. Always learning.</p>
+                </div>
+            </div>
         </div>
-        <div class="slide fade">
-            <img src="images/present2 me.png" alt="Presentation">
-        </div>
-        <div class="slide fade">
-            <img src="images/intreview me.png" alt="Interview">
-        </div>
-        <div class="slide fade">
-            <img src="images/Mirror me.png" alt="Mirror">
-        </div>
-        <div class="slide fade">
-            <img src="images/present1 me.png" alt="Presentation">
-        </div>
-
-    </div>
-
-    <div class="name">
-        <h1>Snehdeep Kaur</h1>
-        <p>Computer Science & AI | Software Engineering · AI · Data</p>
-
-        <!-- Resume button for mobile only -->
-        <div class="resume-btn-container">
-            <a href="https://drive.google.com/file/d/1p0MDilVOyRRDQw3r3KrI4eigteeqMuD3/view?usp=sharing"
-                class="resume-btn-mobile" target="_blank">View My Resume</a>
-        </div>
-    </div>
-
+    </section>
 
     <!-- ABOUT SECTION -->
     <section id="about" class="about-section">
@@ -1093,25 +1091,6 @@
 
 
     <script>
-        //slideshow
-        let slideIndex = 0;
-        const slides = document.getElementsByClassName("slide");
-
-        function showSlides() {
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1; }
-
-            slides[slideIndex - 1].style.display = "block";
-
-            setTimeout(showSlides, 4000); // 4 seconds per slide
-        }
-
-        showSlides();
-
         // Modal for image gallery project
         function toggleDetails(id) {
             const el = document.getElementById(id);
