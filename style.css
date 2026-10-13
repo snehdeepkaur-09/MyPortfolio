@@ -164,6 +164,24 @@ section {
   height: 40px;
 }
 
+.name {
+  text-align: center;
+  margin-top: 0;
+  color: var(--primary);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.name p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
 /* Refined portfolio hero */
 .hero-section {
   position: relative;
@@ -1195,6 +1213,93 @@ section {
 }
 
 
+/* Image horizontal scrolling */
+.image-scroller-section {
+  text-align: center;
+}
+
+.image-scroller-heading {
+  font-size: 36px;
+  text-decoration: underline;
+  margin-top: 100px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #008080;
+  background-color: transparent;
+  display: inline-block;
+  padding: 0;
+}
+
+.image-scroller {
+  overflow: hidden;
+  width: 100%;
+  background: #008080;
+  /* teal background behind images */
+  padding: 20px 0;
+  height: auto;
+}
+
+.scroller-track {
+  display: flex;
+  flex-wrap: nowrap;
+  /* prevent vertical wrap */
+  gap: 20px;
+  animation: scroll-left 100s linear infinite;
+  /* slower for desktop */
+  width: max-content;
+}
+
+
+.image-item {
+  position: relative;
+  flex-shrink: 0;
+  /* prevent shrinking */
+  border-radius: 12px;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.image-label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f9fafb;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.image-item:hover .image-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animation scroll left */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* scroll exactly half the track (the first set of images) */
+  }
+}
+
+
 /* Skills Section */
 .skills-section {
   width: 100%;
@@ -2170,7 +2275,8 @@ section {
 
   img,
   .container,
-  section {
+  section,
+  .slideshow-container {
     max-width: 100%;
     box-sizing: border-box;
     /* Include padding/borders in width */
@@ -2277,6 +2383,11 @@ section {
     height: 130px;
     width: 135px;
     padding: 0;
+  }
+
+  .slideshow-container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .name h1 {
@@ -2518,6 +2629,28 @@ section {
     font-size: 14px;
   }
 
+
+  /*Memorable Moments */
+  .image-scroller-heading {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .image-scroller {
+    min-height: 220px;
+    overflow: hidden;
+  }
+
+  .scroller-track {
+    animation: none;
+  }
+
+  .image-item {
+    width: 300px;
+    height: 200px;
+  }
 
   /*Skills section */
   .skills-section h2 {
